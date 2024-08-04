@@ -4,6 +4,8 @@ const mongoose = require('mongoose');
 const nodemailer = require('nodemailer');
 const crypto = require('crypto');
 const cron = require('node-cron');
+const cors = require('cors');
+const session = require('express-session'); // Import express-session
 
 // Import models
 const User = require('./models/user');
@@ -16,6 +18,15 @@ const scheduleRoutes = require('./routes/schedule');
 // Initialize the app
 const app = express();
 app.use(bodyParser.json());
+app.use(cors());
+
+// Configure session middleware
+app.use(session({
+  secret: 'your_secret_key', // Replace with a strong secret key
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: false } // Set secure to true if using https
+}));
 
 // Connect to MongoDB
 mongoose.connect('mongodb://localhost:27017/deadmanswitch')
