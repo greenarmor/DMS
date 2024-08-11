@@ -1,22 +1,22 @@
 {
   "development": {
-    "username": "your_username",
-    "password": "your_password",
+    "username": "green",
+    "password": "w93cqMDo5QaZBnzKdaCPPm2zaQoUqD",
     "database": "deadmanswitch",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
-    "username": "your_username",
-    "password": "your_password",
-    "database": "database_test",
+    "username": "green",
+    "password": "w93cqMDo5QaZBnzKdaCPPm2zaQoUqD",
+    "database": "deadmanswitch",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
-    "username": "your_username",
-    "password": "your_password",
-    "database": "database_production",
+    "username": "green",
+    "password": "w93cqMDo5QaZBnzKdaCPPm2zaQoUqD",
+    "database": "deadmanswitch",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
