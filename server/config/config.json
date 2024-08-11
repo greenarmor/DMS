@@ -1,21 +1,21 @@
 {
   "development": {
-    "username": "green",
-    "password": "w93cqMDo5QaZBnzKdaCPPm2zaQoUqD",
+    "username": "user",
+    "password": "**************",
     "database": "deadmanswitch",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
-    "username": "green",
-    "password": "w93cqMDo5QaZBnzKdaCPPm2zaQoUqD",
+    "username": "user",
+    "password": "**************",
     "database": "deadmanswitch",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
-    "username": "green",
-    "password": "w93cqMDo5QaZBnzKdaCPPm2zaQoUqD",
+    "username": "user",
+    "password": "***********************",
     "database": "deadmanswitch",
     "host": "127.0.0.1",
     "dialect": "mysql"
